@@ -3,7 +3,7 @@
 ### Species Info
 * **Species:** *Felis catus* (Domestic Cat)
 * **Accession Number:** GCF_018350175.1
-* 
+  
 ### Objective
 To evaluate the assembly quality and contiguity of the Felis catus reference genome across length-filtering thresholds, and to characterize Open Reading Frames (ORFs) on an unlocalized genomic scaffold.
 
@@ -12,7 +12,7 @@ To evaluate the assembly quality and contiguity of the Felis catus reference gen
 2. **Filter Sequences by Length:** Minimum length cutoff set to 10000 bp (10 kb).
 3. **getorf:** Standard genetic code, protein translation output, default minimum size threshold.
 4. **Sort Dataset:** Sorted on Column 2 in descending numerical order to rank ORFs by size.
-
+   
 ### Assembly Statistics Summary
 * **Total Length:** 2,425,739,938 bp (Original) | 2,425,739,938 bp (Filtered)
 * **Number of Sequences:** 71 (Original) | 71 (Filtered)
