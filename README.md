@@ -21,8 +21,13 @@ To evaluate the assembly quality and contiguity of the Felis catus reference gen
 * **Full Results Table:** [View Comparative Results Table (`results_table.md`)](results_table.md)
 
 ### Genome Interpretation
-Analysis of the *Felis catus* assembly metrics reveals a highly contiguous, chromosome-level genome rather than a fragmented one. The N50 value of 148,491,486 bp combined with a maximum scaffold length of 239,367,248 bp indicates that the vast majority of the 2.43 Gb assembly is dominated by massive, near-complete chromosomal sequences. Furthermore, filtering short sequences at the 10 kb threshold resulted in zero removed scaffolds and left the total length entirely unchanged, proving that short, fragmented contigs (<10 kb) are completely absent and contribute nothing to the overall genome size. The assembly exhibits a characteristic mammalian GC content of 41.81%, reflecting balanced base composition across coding and non-coding regions. Finally, the open reading frame (ORF) search identified 155 potential coding regions within a selected scaffold, with the longest spanning 624 amino acids (1,872 bp). While this exercise successfully demonstrated how bioinformatics tools locate translationally uninterrupted stretches between start and stop codons, it also highlighted a critical limitation: an ORF is merely a sequence capability and does not automatically equal a functional gene without supporting transcriptomic or homology data.
+<p align="justify">
+Analysis of the Felis catus assembly metrics confirms a continuous, chromosome-level genome rather than a broken draft. A high N50 value of 148.5 Mb and a maximum scaffold length of 239.4 Mb indicate that most of the 2.43 Gb genome is assembled into full-length chromosomes. Furthermore, filtering out sequences smaller than 10 kb removed zero scaffolds and left the total genome size unchanged, showing that short sequence pieces are absent.
+</p>
 
+<p align="justify">
+The genome shows a GC content of 41.81%, which matches typical mammalian levels. Finally, open reading frame (ORF) analysis on the selected scaffold identified 155 potential coding regions, led by a main ORF of 624 amino acids (1,872 bp). While this workflow shows how bioinformatics tools locate uninterrupted sequence regions between start and stop codons, it also demonstrates an important rule: an ORF is only a predicted sequence capability and needs RNA or reference protein data to prove it is a real, active gene.
+</p>
 ---
 
 ### Visual Evidence & Screenshots
