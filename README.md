@@ -10,7 +10,7 @@ To evaluate the assembly quality and contiguity of the Felis catus reference gen
 ### Tools and Parameters Used
 1. **Fasta Statistics:** Default settings to compute total length, sequence count, N50, and GC content.
 2. **Filter Sequences by Length:** Minimum length cutoff set to 10000 bp (10 kb).
-3. **Split Fasta:**Split multi-FASTA file by record to extract target scaffold `chrA2_random_Un_scaffold_64` for manageable ORF processing.
+3. **Split Fasta:** Split multi-FASTA file by record to extract target scaffold `chrA2_random_Un_scaffold_64` for manageable ORF processing.
 4. **getorf:** Standard genetic code, protein translation output, default minimum size threshold.
 5. **Sort Dataset:** Sorted on Column 2 in descending numerical order to rank ORFs by size.
 
