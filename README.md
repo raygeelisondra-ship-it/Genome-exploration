@@ -44,5 +44,8 @@ Analysis of the *Felis catus* assembly metrics reveals a highly contiguous, chro
 * **Galaxy Workflow History (`Screenshots/Galaxy_history.jpg`):**  
   Displays the complete Galaxy history pane with all execution steps highlighted in green (`ok` state), demonstrating a fully reproducible workflow execution.
 
-### Shared Galaxy History Link
-[Paste your shared Galaxy URL here]
+---
+
+### Galaxy History & Reproducibility Link
+
+* **Shared Galaxy History:** [View Complete Analysis History on Galaxy](https://usegalaxy.org/u/ray_gee_lisondra/h/genome-exploration-ii-lisondra-felis-catus)
