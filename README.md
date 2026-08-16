@@ -28,32 +28,28 @@ Analysis of the Felis catus assembly metrics confirms a continuous, chromosome-l
 <p align="justify">
 The genome shows a GC content of 41.81%, which matches typical mammalian levels. Finally, open reading frame (ORF) analysis on the selected scaffold identified 155 potential coding regions, led by a main ORF of 624 amino acids (1,872 bp). While this workflow shows how bioinformatics tools locate uninterrupted sequence regions between start and stop codons, it also demonstrates an important rule: an ORF is only a predicted sequence capability and needs RNA or reference protein data to prove it is a real, active gene.
 </p>
----
 
 ### Visual Evidence & Screenshots
 
-* **ORF Analysis Results:**  
+* **Figure 1. Reference Genome Dataset:**  
   ![Genome Dataset ORFs](Screenshots/Genome_dataset.png)  
-  *Displays the output table from `getorf` after sorting. Highlights the largest predicted Open Reading Frame (`NW_025408501.1_144`), spanning 624 amino acids.*
+  *Initial Galaxy dataset containing the raw FASTA sequence file (Felis_catus_genome.fasta) for the domestic cat genome assembly,*
 
-* **Original Assembly Statistics:**  
+* **Figure 2 Original Assembly Statistics:**  
   ![Original Assembly Stats](Screenshots/Original_assembly_stats.png)  
   *Displays the baseline metrics for the raw Felis catus assembly before filtering, showing a total genome size of 2,425,739,938 bp across 71 scaffolds with an N50 of 148,491,486 bp.*
 
-* **Filtered Assembly Statistics:**  
+* **Figure 3. Filtered Assembly Statistics:**  
   ![Filtered Assembly Stats](Screenshots/Filtered_assembly_stats.png)  
   *Displays the assembly metrics after applying the ≥ 10 kb size cutoff. Metrics remain identical to the raw assembly, confirming the complete absence of short contigs (< 10 kb).*
 
-* **Split FASTA Output:**  
+* **Figure 4. Split FASTA Output:**  
   ![Split FASTA](Screenshots/Split_fasta.png)  
   *Displays the isolated FASTA sequence record extracted specifically for scaffold `chrA2_random_Un_scaffold_64`.*
 
-* **Galaxy Workflow History:**  
+* **Figure 5. Galaxy Workflow History:**  
   ![Galaxy History](Screenshots/Galaxy_history.jpg)  
   *Displays the complete Galaxy history pane with all execution steps highlighted in green (`ok` state), demonstrating a fully reproducible workflow execution.*
-
-* **Galaxy Workflow History (`Screenshots/Galaxy_history.jpg`):**  
-  Displays the complete Galaxy history pane with all execution steps highlighted in green (`ok` state), demonstrating a fully reproducible workflow execution.
 
 ---
 
