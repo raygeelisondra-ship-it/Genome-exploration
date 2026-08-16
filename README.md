@@ -21,17 +21,25 @@ Analysis of the *Felis catus* assembly metrics reveals a highly contiguous, chro
 
 ### Visual Evidence & Screenshots
 
-* **Original Assembly Statistics (`Screenshots/Original_assembly_stats.png`):**  
-  Displays the baseline metrics for the raw *Felis catus* assembly before filtering, showing a total genome size of 2,425,739,938 bp across 71 scaffolds with an N50 of 148,491,486 bp.
+* **ORF Analysis Results:**  
+  ![Genome Dataset ORFs](Screenshots/Genome_dataset.png)  
+  *Displays the output table from `getorf` after sorting. Highlights the largest predicted Open Reading Frame (`NW_025408501.1_144`), spanning 624 amino acids.*
 
-* **Filtered Assembly Statistics (`Screenshots/Filtered_assembly_stats.png`):**  
-  Displays the assembly metrics after applying the ≥ 10 kb size cutoff. Metrics remain identical to the raw assembly, confirming the complete absence of short contigs (< 10 kb).
+* **Original Assembly Statistics:**  
+  ![Original Assembly Stats](Screenshots/Original_assembly_stats.png)  
+  *Displays the baseline metrics for the raw Felis catus assembly before filtering, showing a total genome size of 2,425,739,938 bp across 71 scaffolds with an N50 of 148,491,486 bp.*
 
-* **Split FASTA Output (`Screenshots/Split_fasta.png`):**  
-  Displays the isolated FASTA sequence record extracted specifically for scaffold `chrA2_random_Un_scaffold_64`.
+* **Filtered Assembly Statistics:**  
+  ![Filtered Assembly Stats](Screenshots/Filtered_assembly_stats.png)  
+  *Displays the assembly metrics after applying the ≥ 10 kb size cutoff. Metrics remain identical to the raw assembly, confirming the complete absence of short contigs (< 10 kb).*
 
-* **ORF Analysis Results (`Screenshots/Genome_dataset.png`):**  
-  Displays the output table from `getorf` after sorting. Highlights the largest predicted Open Reading Frame (`NW_025408501.1_144`), spanning 624 amino acids.
+* **Split FASTA Output:**  
+  ![Split FASTA](Screenshots/Split_fasta.png)  
+  *Displays the isolated FASTA sequence record extracted specifically for scaffold `chrA2_random_Un_scaffold_64`.*
+
+* **Galaxy Workflow History:**  
+  ![Galaxy History](Screenshots/Galaxy_history.jpg)  
+  *Displays the complete Galaxy history pane with all execution steps highlighted in green (`ok` state), demonstrating a fully reproducible workflow execution.*
 
 * **Galaxy Workflow History (`Screenshots/Galaxy_history.jpg`):**  
   Displays the complete Galaxy history pane with all execution steps highlighted in green (`ok` state), demonstrating a fully reproducible workflow execution.
